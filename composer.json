@@ -1,0 +1,36 @@
+{
+  "name": "urguardian4ngel/flarum-ext-fb-crawler",
+  "description": "An extension that allows the Facebook Crawler to crawl protected pages.",
+  "type": "flarum-extension",
+  "keywords": ["facebook", "crawler", "seo"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michaël Jacobs",
+      "email": "michael.jacobs92@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/UrGuardian4ngel/flarum-ext-fb-crawler/issues",
+    "source": "https://github.com/UrGuardian4ngel/flarum-ext-fb-crawler"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.5"
+  },
+  "autoload": {
+    "psr-4": { "UrGuardian4ngel\\FacebookCrawler\\": "src/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "Facebook Crawler",
+      "icon": {
+        "name": "bug",
+        "backgroundColor": "#3b5998",
+        "color": "#fff"
+      }
+    }
+  }
+}
